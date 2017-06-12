@@ -11,6 +11,7 @@ import {
   Text,
   View
 } from 'react-native';
+require('./source/asyncStorage/');
 
 //使用 ScrollView 实现电影列表
 // import MovieList from './source/LessonScrollView/ScrollViewList';
@@ -45,4 +46,6 @@ import MainPage from './source/DoubanDemo/MainPage';
 //利用Animated实现折叠面板
 import Panels from './source/pages/Panels';
 
-AppRegistry.registerComponent('ReactNativeDemo', () => MainPage);
+import StorageLesson from './source/asyncStorage/StorageLesson';
+
+AppRegistry.registerComponent('ReactNativeDemo', () => StorageLesson);
