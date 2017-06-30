@@ -22,4 +22,5 @@ React Native 学习之路
 
 ## 资源
 1. [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)
-2. [react-navigation](https://github.com/react-community/react-navigation)
+2. [react-navigation ( 导航 )](https://github.com/react-community/react-navigation)
+3. [Ant Design ( UI )](https://mobile.ant.design/docs/react/introduce-cn)
