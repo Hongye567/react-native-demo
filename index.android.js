@@ -32,20 +32,33 @@ require('./source/asyncStorage/');
 //import MainPage from './source/LessonTabNavigator/MainPage';
 
 //GridView实现
-import GridView from './source/LessonGridView/GridView';
+//import GridView from './source/LessonGridView/GridView';
 
 //使用ListView实现GridView
-import ListGridView from './source/LessonGridView/ListGridView';
+//import ListGridView from './source/LessonGridView/ListGridView';
 
 //使用ActivityIndicator实现加载动画
-import Loading from './source/activityIndicator/Loading';
+//import Loading from './source/activityIndicator/Loading';
 
 //使用豆瓣API实现小案例
-import MainPage from './source/DoubanDemo/MainPage';
+//import MainPage from './source/DoubanDemo/MainPage';
 
 //利用Animated实现折叠面板
-import Panels from './source/pages/Panels';
+//import Panels from './source/pages/Panels';
 
-import StorageLesson from './source/asyncStorage/StorageLesson';
+//使用 实现本地存储
+//import StorageLesson from './source/asyncStorage/StorageLesson';
 
-AppRegistry.registerComponent('ReactNativeDemo', () => StorageLesson);
+//使用ListView实现下拉刷新上拉加载
+//import RefreshList from './source/refresh/RefreshList';
+
+//FlatList基本使用
+//import MyList from './source/LessonFlatList/SimpleDemo';
+
+//FlatList实现Grid
+//import GridList from './source/LessonFlatList/GridList';
+
+//FlatList实现下拉刷新上拉加载
+import RefreshList from './source/LessonFlatList/RefreshList';
+
+AppRegistry.registerComponent('ReactNativeDemo', () => RefreshList);
